@@ -1,0 +1,49 @@
+/* Tag / Element Selector */
+
+p {
+    font-size: 24px;
+}
+
+.primaryColor {
+    color: #ff1949
+}
+
+#unique {
+    font-family: cursive;
+}
+
+table[border="5"]{
+    border-color: #ff1949;
+}
+
+/* relational selectors */
+
+.box p {
+    color: hotpink;
+}
+
+.box > .para {
+    font-size: 26px;
+}
+
+.box ~ span {
+    color: green;
+}
+
+.box p span {
+    font-weight: 900;
+}
+
+button:hover {
+    background-color: #ff1949;
+}
+
+p::first-line {
+    font-size: 36px;
+}
+
+ol :nth-child(even) {
+    font-size: 28px;
+    color: #ff1949;
+    margin: 20px;
+}
